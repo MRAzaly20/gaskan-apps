@@ -1,0 +1,15 @@
+# Mengabaikan folder node_modules
+node_modules
+
+# Mengabaikan file sistem
+.DS_Store
+Thumbs.db
+
+# Mengabaikan file pribadi atau sensitif
+.env
+
+# Mengabaikan file log, cache, output, atau sementara
+*.log
+.cache
+.out
+/dist
