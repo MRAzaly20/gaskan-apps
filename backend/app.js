@@ -11,7 +11,6 @@ const app = express();
 
 // Menyimpan string koneksi dari Atlas
 const uri = process.env.MONGO_URI;
-
 // Menghubungkan mongoose dengan MongoDB Atlas
 mongoose
 	.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })

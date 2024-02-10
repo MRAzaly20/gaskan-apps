@@ -1,5 +1,5 @@
 // Import necessary modules
-import Absen from '../../scheme/schema.js'; // Replace with your actual schema import
+import Absen from '../../db/schema.js'; // Replace with your actual schema import
 import mongoose from 'mongoose';
 
 const getDataById = async () => {

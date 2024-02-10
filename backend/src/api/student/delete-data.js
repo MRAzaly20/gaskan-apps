@@ -1,6 +1,6 @@
 // Mengimpor modul mongoose dan model absen
 import mongoose from 'mongoose';
-import Absen from '../../scheme/schema.js';
+import Absen from '../../db/schema.js';
 
 // Membuat fungsi untuk menghapus data di database MongoDB
 const DelData = async (nama, kelas, nis, index) => {

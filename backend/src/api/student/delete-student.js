@@ -1,6 +1,6 @@
 // Mengimpor modul mongoose, model absen, dan fungsi cariIndex dan hapusData
 import mongoose from 'mongoose';
-import Absen from '../../scheme/schema.js';
+import Absen from '../../db/schema.js';
 import FindIndex from './find-index.js';
 import DelData from './delete-data.js';
 
